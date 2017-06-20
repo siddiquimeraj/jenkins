@@ -22,5 +22,8 @@ classObject = HelloWorld()
 result_1 = classObject.getData()
 classObject.setData("Meraj")
 result_2 = classObject.getData()
-print result_1
-print result_2 
+
+if (result_1 == result_2):
+	print "No Data update"
+else:
+	print "You got some data"
